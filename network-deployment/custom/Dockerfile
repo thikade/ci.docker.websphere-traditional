@@ -14,9 +14,10 @@
 # limitations under the License.                                          #
 ###########################################################################
 
-FROM nd
+FROM thikade/wasnd
 
-MAINTAINER Kavitha Suresh Kumar <kavisuresh@in.ibm.com>
+# based on https://github.com/WASdev/ci.docker.websphere-traditional/
+MAINTAINER thikade <thomas.hikade@gmail.com>
 
 ARG PROFILE_NAME=Custom01
 

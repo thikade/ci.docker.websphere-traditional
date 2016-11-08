@@ -2,14 +2,14 @@
 #                                                                                   #
 #  Script to update Hostname                                                        #
 #                                                                                   #
-#  Usage : wsadmin -lang jython -f updateHostName.py <node name >  < host name >    # 
+#  Usage : wsadmin -lang jython -f updateHostName.py <node name >  < host name >    #
 #                                                                                   #
 #####################################################################################
 
 
-def updateHostName(nodename,hostname):
+def updateHostName(nodename, hostname):
 
-        AdminTask.changeHostName('[-nodeName '+ nodename +' -hostName '+ hostname +']')
+	AdminTask.changeHostName('[-nodeName ' + nodename + ' -hostName ' + hostname + ']')
 
 	AdminTask.modifyServerPort('nodeagent', '[-nodeName '+ nodename +' -endPointName BOOTSTRAP_ADDRESS -host '+ hostname +' -port 2809 -modifyShared true]') 
 
