@@ -19,7 +19,7 @@ FROM wasnd
 # based on https://github.com/WASdev/ci.docker.websphere-traditional/
 MAINTAINER thikade <thomas.hikade@gmail.com>
 
-ARG PROFILE_NAME=Custom01
+ARG PROFILE_NAME=Custom
 
 ARG CELL_NAME=CustomCell
 

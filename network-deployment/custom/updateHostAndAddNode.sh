@@ -12,7 +12,7 @@ setEnv()
      #Check whether profile name is provided or use default
      if [ "$PROFILE_NAME" = "" ] 
      then
-          PROFILE_NAME="Custom01"
+          PROFILE_NAME="Custom"
      fi
 
      #Check whether node name is provided or use default
