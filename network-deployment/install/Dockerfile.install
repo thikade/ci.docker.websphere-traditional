@@ -39,7 +39,7 @@ RUN groupadd $group && useradd $user -g $group -m \
 
 USER $user
 
-ADD was.tar /
+ADD was.tar.gz /
 
 ENV PATH /opt/IBM/WebSphere/AppServer/bin:$PATH
 

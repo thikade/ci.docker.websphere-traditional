@@ -14,7 +14,7 @@
 # limitations under the License.                                          #
 ###########################################################################
 
-FROM thikade/wasnd
+FROM wasnd
 
 # based on https://github.com/WASdev/ci.docker.websphere-traditional/
 MAINTAINER thikade <thomas.hikade@gmail.com>
